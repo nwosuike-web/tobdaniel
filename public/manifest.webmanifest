@@ -1,0 +1,12 @@
+{
+  "name": "Tob Daniel Business Enterprise",
+  "short_name": "Tob Daniel",
+  "description": "Quality Products. Trusted Service. Delivered With Excellence.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a3a8f",
+  "icons": [
+    { "src": "/images/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" width="220" height="44" role="img" aria-label="Tob Daniel Business Enterprise">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a3a8f"/>
+      <stop offset="1" stop-color="#3fa9f5"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="40" height="40" rx="10" fill="url(#lg)"/>
+  <path d="M14 9v14h5v9h3v-9h5V9z" fill="#ffffff"/>
+  <path d="M27 9h5v14h-5z" fill="#ffb020"/>
+  <text x="50" y="26" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f1b3d">Tob Daniel</text>
+  <text x="50" y="39" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" letter-spacing="1.4" fill="#3fa9f5">BUSINESS ENTERPRISE</text>
+</svg>

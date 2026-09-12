@@ -1,0 +1,23 @@
+# Render Blueprint — one-click deploy.
+# Create a free account at render.com → New → Blueprint → point it at this repo.
+# It provisions the web service, sets env vars, and deploys automatically.
+
+services:
+  - type: web
+    name: tob-daniel-store
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server/index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: AUTO_SEED
+        value: "true"
+      - key: ADMIN_ROUTE
+        value: secure-admin-login
+      # Set a strong, random value for APP_SECRET in production.
+      - key: APP_SECRET
+        generateValue: true
+      - key: HOST
+        value: 0.0.0.0

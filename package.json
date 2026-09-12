@@ -1,0 +1,20 @@
+{
+  "name": "tob-daniel-enterprise",
+  "version": "1.0.0",
+  "description": "Tob Daniel Business Enterprise — premium e-commerce platform (storefront + admin dashboard + API)",
+  "type": "commonjs",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/seed.js",
+    "test": "node tests/run.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tob Daniel Business Enterprise — Quality Products. Trusted Service.</title>
+  <meta name="description" content="Shop electronics, fashion, beauty and home essentials at Tob Daniel Business Enterprise. Fast delivery across Nigeria, genuine products, secure payments.">
+  <meta name="theme-color" content="#0a3a8f">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tob Daniel Business Enterprise">
+  <meta property="og:title" content="Tob Daniel Business Enterprise — Quality Products. Trusted Service.">
+  <meta property="og:description" content="Nigeria's trusted online marketplace. Electronics, fashion, beauty & home essentials — delivered with excellence.">
+  <meta property="og:image" content="/images/hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/css/app.css?v=5">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tob Daniel Business Enterprise",
+    "slogan": "Quality Products. Trusted Service. Delivered With Excellence.",
+    "url": "/",
+    "logo": "/images/logo.svg",
+    "contactPoint": { "@type": "ContactPoint", "telephone": "+234-800-123-4567", "contactType": "customer service", "areaServed": "NG" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+
+  <div class="announce" id="announceBar" hidden>
+    <span id="announceText"></span>
+  </div>
+
+  <header class="topbar" id="topbar">
+    <div class="container topbar-inner">
+      <button class="icon-btn only-mobile" id="menuBtn" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+
+      <a class="brand" href="/" aria-label="Tob Daniel Business Enterprise — home">
+        <img src="/images/logo.svg" alt="Tob Daniel Business Enterprise logo" width="200" height="40">
+      </a>
+
+      <div class="search" id="searchBox">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="searchInput" type="search" placeholder="Search products, brands, SKU…" autocomplete="off" aria-label="Search products">
+        <button class="search-btn" id="searchBtn" aria-label="Search">Search</button>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary">
+        <a href="/" data-nav="home">Home</a>
+        <a href="/shop" data-nav="shop">Shop</a>
+        <a href="/shop?flash=1" data-nav="deals">Deals<span class="nav-hot">HOT</span></a>
+        <a href="/contact" data-nav="contact">Contact</a>
+      </nav>
+
+      <div class="top-actions">
+        <button class="icon-btn only-mobile" id="searchOpen" aria-label="Search">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <a class="icon-btn" href="/account" aria-label="Account">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>
+          <span class="icon-label">Account</span>
+        </a>
+        <a class="icon-btn" href="/account/wishlist" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7.5-4.6-10-9.3C.4 7.9 2.6 4 6.2 4c2.2 0 3.7 1.1 4.8 2.7C12.1 5.1 13.6 4 15.8 4c3.6 0 5.8 3.9 4.2 7.7C17.5 16.4 12 21 12 21z"/></svg>
+          <span class="badge" id="wishBadge" hidden>0</span>
+          <span class="icon-label">Wishlist</span>
+        </a>
+        <a class="icon-btn" href="/cart" aria-label="Shopping cart">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.6"/><circle cx="17" cy="20" r="1.6"/><path d="M3 3h2.4l2.4 12.4a1.5 1.5 0 0 0 1.5 1.2h7.9a1.5 1.5 0 0 0 1.5-1.2L21 7H6"/></svg>
+          <span class="badge badge-gold" id="cartBadge" hidden>0</span>
+          <span class="icon-label">Cart</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="bottom-nav" aria-label="Mobile navigation">
+    <a href="/" data-nav="home"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg><span>Home</span></a>
+    <a href="/shop" data-nav="shop"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg><span>Shop</span></a>
+    <a href="/shop?flash=1" data-nav="deals"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 15 8.5 22 9.3 17 14l1.3 7-6.3-3.6L5.7 21 7 14 2 9.3 9 8.5z"/></svg><span>Deals</span></a>
+    <a href="/cart" data-nav="cart"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.6"/><circle cx="17" cy="20" r="1.6"/><path d="M3 3h2.4l2.4 12.4a1.5 1.5 0 0 0 1.5 1.2h7.9a1.5 1.5 0 0 0 1.5-1.2L21 7H6"/></svg><span>Cart</span><span class="badge badge-gold" id="cartBadge2" hidden>0</span></a>
+    <a href="/account" data-nav="account"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg><span>Account</span></a>
+  </nav>
+
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="Menu">
+    <div class="drawer-head">
+      <img src="/images/logo.svg" alt="Tob Daniel Business Enterprise" width="170" height="34">
+      <button class="icon-btn" id="drawerClose" aria-label="Close menu"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="/">Home</a>
+      <a href="/shop">Shop all</a>
+      <a href="/shop?flash=1">🔥 Flash deals</a>
+      <a href="/account">My account</a>
+      <a href="/account/orders">My orders</a>
+      <a href="/account/wishlist">Wishlist</a>
+      <a href="/contact">Contact & support</a>
+    </nav>
+    <div class="drawer-foot">
+      <a class="btn btn-whatsapp" id="drawerWa" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+  </aside>
+
+  <div class="search-overlay" id="searchOverlay" hidden style="display:none">
+    <div class="search-overlay-box">
+      <div class="search-row">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="overlayInput" type="search" placeholder="Search products, brands, SKU…" autocomplete="off" aria-label="Search products">
+        <button class="icon-btn" id="overlayClose" aria-label="Close search"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <div id="overlayResults" class="overlay-results"></div>
+    </div>
+  </div>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-about">
+        <img src="/images/logo.svg" alt="Tob Daniel Business Enterprise" width="180" height="36" style="filter:brightness(0) invert(1)">
+        <p id="footerSlogan" class="footer-slogan">Quality Products. Trusted Service. Delivered With Excellence.</p>
+        <p class="footer-addr" id="footerAddress"></p>
+        <p class="footer-contact"><a id="footerPhone" href="#"></a><br><a id="footerEmail" href="#"></a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick links</h4>
+        <a href="/">Home</a>
+        <a href="/shop">Shop</a>
+        <a href="/shop?flash=1">Flash deals</a>
+        <a href="/account/orders">Track my order</a>
+        <a href="/contact">Contact us</a>
+      </div>
+      <div class="footer-col">
+        <h4>Customer service</h4>
+        <a href="/contact">Help & FAQ</a>
+        <a href="/contact">Delivery information</a>
+        <a href="/contact">Returns & refunds</a>
+        <a href="/contact">Payment options</a>
+      </div>
+      <div class="footer-col">
+        <h4>Stay in the loop</h4>
+        <p class="footer-note">Get exclusive deals and new arrivals straight to your inbox.</p>
+        <form class="newsletter" id="newsletterForm">
+          <label class="sr-only" for="nlEmail">Email address</label>
+          <input id="nlEmail" type="email" placeholder="you@email.com" required>
+          <button class="btn btn-gold" type="submit">Subscribe</button>
+        </form>
+        <div class="socials" id="footerSocials"></div>
+        <div class="pay-badges">
+          <span>Visa</span><span>Mastercard</span><span>Verve</span><span>Bank Transfer</span><span>Pay on Delivery</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© <span id="year"></span> Tob Daniel Business Enterprise. All rights reserved. · Made with excellence in Lagos, Nigeria.</div>
+    </div>
+  </footer>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <div id="modalRoot"></div>
+
+  <noscript><div style="padding:40px;text-align:center;font-family:sans-serif">Please enable JavaScript to shop on Tob Daniel Business Enterprise.</div></noscript>
+  <script src="/js/utils.js?v=5"></script>
+  <script src="/js/app.js?v=5"></script>
+</body>
+</html>
